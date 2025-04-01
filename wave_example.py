@@ -1,7 +1,7 @@
 
 import wave
 
-obj = wave.open("/Users/pavithragopisetty/Documents/Arjun/mynewproject/Soundscape_Arjun/output.wav", "rb")
+obj = wave.open("/Users/Documents/Arjun/mynewproject/Soundscape_Arjun/output.wav", "rb")
 
 print("number of channels", obj.getnchannels())
 
