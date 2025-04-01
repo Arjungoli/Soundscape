@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import sys
 import librosa
 
-wav_obj = wave.open('/Users/pavithragopisetty/Documents/Arjun/mynewproject/output.wav', 'r')
+wav_obj = wave.open('/Users/Documents/Arjun/mynewproject/output.wav', 'r')
 
 sample_freq = wav_obj.getframerate()
 print(sample_freq)
