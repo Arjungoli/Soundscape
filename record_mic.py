@@ -31,7 +31,7 @@ stream.close()
 p.terminate()
 
 
-wf = wave.open("/Users/pavithragopisetty/Documents/Arjun/mynewproject/recorded_output.wav", 'wb')
+wf = wave.open("/Users/Documents/Arjun/mynewproject/recorded_output.wav", 'wb')
 wf.setnchannels(CHANNELS)
 wf.setsampwidth(p.get_sample_size(FORMAT))
 wf.setframerate(RATE)
