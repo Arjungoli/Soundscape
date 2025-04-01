@@ -19,7 +19,7 @@ import requests
 import requests
 from api_02 import *
 
-filename = "/Users/pavithragopisetty/Documents/Arjun/mynewproject/Soundscape_Arjun/recording.m4a"
+filename = "/Users/Documents/Arjun/mynewproject/Soundscape_Arjun/recording.m4a"
 audio_url = upload(filename)
 
 save_transcript(audio_url, 'file_title')
